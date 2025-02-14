@@ -1,0 +1,44 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: darkcyan;
+    margin: 0.5em;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+#button-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5em;
+}
+
+.bad {
+    color: red;
+}
+
+.good {
+    color: green;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
